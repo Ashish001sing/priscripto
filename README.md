@@ -1,43 +1,57 @@
 # priscripto
 
-# React + Vite
+Priscripto is a minimal React + Vite starter template, ideal for quick prototyping and scalable web app development.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- **React**: Modern UI development with reusable components.
+- **Vite**: Lightning-fast build tool with Hot Module Replacement (HMR).
+- **ESLint**: Basic linting for syntax and code quality.
+- **Plugin Options**:
+  - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) (uses [Babel](https://babeljs.io/) for Fast Refresh)
+  - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) (uses [SWC](https://swc.rs/) for Fast Refresh)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## React Compiler
+1. **Install dependencies**  
+   ```bash
+   npm install
+   ```
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Start development server**  
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 94c69a130a5777c4413063333a5b117c07362518
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. **Build for production**  
+   ```bash
+   npm run build
+   ```
 
 ## React Compiler
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The React Compiler is _not_ enabled by default.  
+To add it, see [React Compiler Installation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## ESLint Configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# priscripto
->>>>>>> 94c69a130a5777c4413063333a5b117c07362518
+For production apps, consider using TypeScript with type-aware lint rules.  
+See the [Vite TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for more details.
+
+## Project Structure
+
+```
+priscripto/
+├── public/
+├── src/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## License
+
+MIT
+
